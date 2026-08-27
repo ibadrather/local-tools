@@ -1,0 +1,11 @@
+# Picked up automatically when Streamlit is started from the project root.
+
+[server]
+# Listen on every interface so other machines on the LAN can reach the app.
+address = "0.0.0.0"
+port = 8501
+# Never try to open a browser on the machine running the server.
+headless = true
+
+[browser]
+gatherUsageStats = false

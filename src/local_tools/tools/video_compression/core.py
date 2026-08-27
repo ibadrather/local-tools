@@ -1,8 +1,8 @@
 """Compress a video using ffmpeg (libx265) while preserving resolution and fps.
 
 This module holds the compression logic only: it has no user-interface
-dependencies, so it can be driven from the Streamlit app in
-:mod:`local_tools.app`, from a script, or from a test.
+dependencies, so it can be driven from the Streamlit page in
+:mod:`local_tools.tools.video_compression.page`, from a script, or from a test.
 
 Example:
     >>> compress_video(Path("~/footage/DJI_0001.MP4"))  # doctest: +SKIP
